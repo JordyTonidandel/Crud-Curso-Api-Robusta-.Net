@@ -1,0 +1,15 @@
+C:\estudo\Manager\src\Manager.Domain\bin\Debug\net5.0\Manager.Domain.deps.json
+C:\estudo\Manager\src\Manager.Domain\bin\Debug\net5.0\Manager.Domain.dll
+C:\estudo\Manager\src\Manager.Domain\bin\Debug\net5.0\ref\Manager.Domain.dll
+C:\estudo\Manager\src\Manager.Domain\bin\Debug\net5.0\Manager.Domain.pdb
+C:\estudo\Manager\src\Manager.Domain\bin\Debug\net5.0\Manager.Core.dll
+C:\estudo\Manager\src\Manager.Domain\bin\Debug\net5.0\Manager.Core.pdb
+C:\estudo\Manager\src\Manager.Domain\obj\Debug\net5.0\Manager.Domain.csproj.AssemblyReference.cache
+C:\estudo\Manager\src\Manager.Domain\obj\Debug\net5.0\Manager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\estudo\Manager\src\Manager.Domain\obj\Debug\net5.0\Manager.Domain.AssemblyInfoInputs.cache
+C:\estudo\Manager\src\Manager.Domain\obj\Debug\net5.0\Manager.Domain.AssemblyInfo.cs
+C:\estudo\Manager\src\Manager.Domain\obj\Debug\net5.0\Manager.Domain.csproj.CoreCompileInputs.cache
+C:\estudo\Manager\src\Manager.Domain\obj\Debug\net5.0\Manager.Domain.csproj.CopyComplete
+C:\estudo\Manager\src\Manager.Domain\obj\Debug\net5.0\Manager.Domain.dll
+C:\estudo\Manager\src\Manager.Domain\obj\Debug\net5.0\ref\Manager.Domain.dll
+C:\estudo\Manager\src\Manager.Domain\obj\Debug\net5.0\Manager.Domain.pdb
