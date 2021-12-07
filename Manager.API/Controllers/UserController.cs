@@ -6,6 +6,7 @@ using Manager.API.ViewModels;
 using Manager.Core.Exceptions;
 using Manager.Services.DTO;
 using Manager.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Manager.API.Controllers
@@ -23,6 +24,7 @@ namespace Manager.API.Controllers
     }
 
     [HttpPost]
+    [Authorize]
     [Route("/api/v1/users/create")]
     public async Task<IActionResult> Create([FromBody] CreateUserViewModels userViewModel)
     {
@@ -50,6 +52,7 @@ namespace Manager.API.Controllers
     }
 
     [HttpPut]
+    [Authorize]
     [Route("/api/v1/users/update")]
     public async Task<IActionResult> Update([FromBody] UpdateUserViewModels updateUserViewModels)
     {
@@ -77,6 +80,7 @@ namespace Manager.API.Controllers
     }
 
     [HttpDelete]
+    [Authorize]
     [Route("/api/v1/users/remove/{id}")]
     public async Task<IActionResult> Remove(long id)
     {
@@ -102,6 +106,7 @@ namespace Manager.API.Controllers
     }
 
     [HttpGet]
+    [Authorize]
     [Route("/api/v1/users/get/{id}")]
     public async Task<IActionResult> Get(long id)
     {
@@ -137,6 +142,7 @@ namespace Manager.API.Controllers
     }
 
     [HttpGet]
+    [Authorize]
     [Route("/api/v1/users/get-all")]
     public async Task<IActionResult> Get()
     {
@@ -162,6 +168,7 @@ namespace Manager.API.Controllers
     }
 
     [HttpGet]
+    [Authorize]
     [Route("/api/v1/users/get/get-by-email")]
     public async Task<IActionResult> GetByEmail([FromQuery] string email)
     {
@@ -197,6 +204,7 @@ namespace Manager.API.Controllers
     }
 
     [HttpGet]
+    [Authorize]
     [Route("/api/v1/users/get/search-by-name")]
     public async Task<IActionResult> GetByName([FromQuery] string name)
     {
@@ -232,6 +240,7 @@ namespace Manager.API.Controllers
     }
 
     [HttpGet]
+    [Authorize]
     [Route("/api/v1/users/get/search-by-email")]
     public async Task<IActionResult> SearchByName([FromQuery] string email)
     {

@@ -12,6 +12,8 @@ C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\FluentValidation.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Humanizer.dll
+C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -26,7 +28,6 @@ C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Microsoft.IdentityModel.Proto
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\estudo\Manager\src\Manager.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
