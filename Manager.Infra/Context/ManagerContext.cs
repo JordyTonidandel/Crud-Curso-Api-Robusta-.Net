@@ -12,7 +12,7 @@ namespace Manager.Infra.Context
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-      optionsBuilder.UseSqlServer(@"Data Source=localhost;Initial Catalog=USER_MANAGER_API;Integrated Security=True;");
+      optionsBuilder.UseSqlServer(@"Server=tcp:mymanagerapidatabase.database.windows.net,1433;Database=mymanagerapidatabase;User ID=TonidandelAdmin;Password=epUW8MVukPNye6y;Trusted_Connection=False;Encrypt=True;");
     }
 
     public virtual DbSet<User> Users { get; set; }

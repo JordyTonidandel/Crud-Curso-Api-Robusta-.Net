@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6YMK3450tFz+ZJZGkCIN0YJlQSdq+yG2wRiX2NYs0IcwXRmt4DltI8LYhSJre8jIPtO/RQMnv7hW9yNdflDoMg==",
+  "dgSpecHash": "r2Il2oCak4MGIuiIditXKl3oqwqzgmxzLeG1p+qZ3B2/Uh6QCx0kh1GAnJUHEj9coeVpnncXLJCuhkRYtz9Fgw==",
   "success": true,
   "projectFilePath": "C:\\estudo\\Manager\\src\\Manager.Services\\Manager.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jordy Tonidandell\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Jordy Tonidandell\\.nuget\\packages\\escnet\\1.0.1\\escnet.1.0.1.nupkg.sha512",
     "C:\\Users\\Jordy Tonidandell\\.nuget\\packages\\fluentvalidation\\10.3.5\\fluentvalidation.10.3.5.nupkg.sha512",
     "C:\\Users\\Jordy Tonidandell\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.5\\fluentvalidation.aspnetcore.10.3.5.nupkg.sha512",
     "C:\\Users\\Jordy Tonidandell\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.5\\fluentvalidation.dependencyinjectionextensions.10.3.5.nupkg.sha512",

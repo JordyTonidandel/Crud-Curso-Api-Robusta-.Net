@@ -1,6 +1,7 @@
 using System;
 using System.Text;
 using AutoMapper;
+using EscNet.DependencyInjection.IoC.Cryptography;
 using Manager.API.Token;
 using Manager.API.ViewModels;
 using Manager.Domain.Entities;
@@ -75,7 +76,7 @@ namespace Manager.API
       #region DI
 
       services.AddSingleton(d => Configuration);
-      services.AddDbContext<ManagerContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:USER_MANAGER_API"]), ServiceLifetime.Transient);
+      services.AddDbContext<ManagerContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:UserManagerApi"]), ServiceLifetime.Transient);
       services.AddScoped<IUserService, UserService>();
       services.AddScoped<IUserRepository, UserRepository>();
       services.AddScoped<ITokenGenerator, TokenGenerator>();
@@ -120,6 +121,12 @@ namespace Manager.API
                 }
           });
       });
+
+      #endregion
+
+      #region Cryptography
+
+      services.AddRijndaelCryptography(Configuration["Cryptography"]);
 
       #endregion
     }

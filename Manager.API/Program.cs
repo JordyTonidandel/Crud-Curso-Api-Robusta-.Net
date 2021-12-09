@@ -9,18 +9,29 @@ using Microsoft.Extensions.Logging;
 
 namespace Manager.API
 {
-    public class Program
+  public class Program
+  {
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
-        }
-
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+      CreateHostBuilder(args).Build().Run();
     }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureAppConfiguration((context, config) =>
+            {
+              if (context.HostingEnvironment.IsProduction())
+              {
+                var builtConfig = config.Build();
+                config.AddAzureKeyVault(
+                        builtConfig["AzureKeyVault:Vault"],
+                        builtConfig["AzureKeyVault:ClientId"],
+                        builtConfig["AzureKeyVault:ClientSecret"]);
+              }
+            })
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+              webBuilder.UseStartup<Startup>();
+            });
+  }
 }
